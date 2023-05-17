@@ -1,2 +1,2 @@
 # Video Game Quiz
-A quiz featuring 50 questions of video game trivia
+A quiz featuring 50 questions of video game trivia from Open Trivia DB

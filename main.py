@@ -2,6 +2,8 @@
 from question_model import Question
 from data import question_data
 from quiz_brain import QuizBrain
+import time
+import os
 
 # List of Question objects (empty at first)
 question_bank = []
@@ -17,6 +19,9 @@ quiz = QuizBrain(question_bank)
 # Iterate through questions
 while quiz.still_has_questions():
     quiz.next_question()
+    # Clear console
+    time.sleep(2.5)
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 # Ending message
 print("You've completed the quiz!")
