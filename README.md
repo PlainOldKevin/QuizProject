@@ -1,2 +1,2 @@
-# Quiz
-A quiz featuring questions with some interesting trivia
+# Video Game Quiz
+A quiz featuring 50 questions of video game trivia
