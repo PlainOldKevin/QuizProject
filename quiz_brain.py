@@ -13,7 +13,7 @@ class QuizBrain:
         # Increase question number
         self.question_number += 1
         # Prompt user
-        ans = input(f"Q.{self.question_number}: {current_question.text} (T/F)?: ")
+        ans = input(f"Q.{self.question_number}: {current_question.text} (True/False)?: ")
         # Check answer
         self.check_answer(ans, current_question.answer)
 

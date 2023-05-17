@@ -8,7 +8,7 @@ question_bank = []
 
 # For loop to add Questions to question bank
 for q in question_data:
-    new_question = Question(q['text'], q['answer'])
+    new_question = Question(q['question'], q['correct_answer'])
     question_bank.append(new_question)
 
 # Create quiz for user to interact with
